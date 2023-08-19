@@ -48,7 +48,7 @@ section{
 }
 
 .box-info span{
-    color:rgb(106, 105, 105);
+    color:rgb(107, 78, 21);
     font-size: 20px;
     font-weight: bold;
 }
@@ -124,7 +124,7 @@ section{
 
 @media (max-width: 1200px){
     section{
-        padding: 90px 35% 60px;
+        padding: 60px 30% 25px;
     }
     .My-card{
         height: 90vh;
@@ -133,16 +133,21 @@ section{
 
 @media (max-width: 1050px){
     section{
-        padding: 90px 35% 60px;;
+        padding: 45px 5% 35px;
     }
     .My-card{
         height: 90vh;
+    }
+    .My-card{
+        margin-top: 30vh;
+        align-items: center;
+        text-align: center;
     }
 }
 
 @media (max-width: 800px){
     section{
-        padding: 90px 35% 60px;;
+        padding: 45px 5% 35px;
     }
     .My-card{
         height: 90vh;
