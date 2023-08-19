@@ -48,7 +48,7 @@ section{
 }
 
 .box-info span{
-    color:rgb(107, 78, 21);
+    color:rgb(106, 105, 105);
     font-size: 20px;
     font-weight: bold;
 }
@@ -110,3 +110,60 @@ section{
       background-position: 0% 50%;
     }
   }
+
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1700px){
+    section{
+        padding: 90px 35% 60px;
+    }
+    .My-card{
+        height: 90vh;
+    }
+}
+
+@media (max-width: 1200px){
+    section{
+        padding: 90px 35% 60px;
+    }
+    .My-card{
+        height: 90vh;
+    }
+}
+
+@media (max-width: 1050px){
+    section{
+        padding: 90px 35% 60px;;
+    }
+    .My-card{
+        height: 90vh;
+    }
+}
+
+@media (max-width: 800px){
+    section{
+        padding: 90px 35% 60px;;
+    }
+    .My-card{
+        height: 90vh;
+    }
+}
+
+@media (max-width: 600px){
+    :root{
+        --h1-font: 3.5rem;
+        --h2-font: 2.1rem;
+    }
+    .My-card{
+        height: 85vh;
+    }
+    .box-text h2{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 450px){
+    section{
+        padding: 60px 3% 5px;
+    }
+}
